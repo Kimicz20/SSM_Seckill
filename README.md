@@ -7,7 +7,7 @@ IDEA+Maven+SSM框架。
 1. 准备工具
 * Mysql
     1.  这里我们采用手写代码创建相关表，掌握这种能力对我们以后的项目二次上线会有很大的帮助
-    2.  `SQL技巧` [SQL语句大全](http://www.runoob.com/sql/sql-tutorial.html)
+    2.  `SQL技巧` [SQL语句大全](http://www.runoob.com/sql/sql-tutorial.html)
     3.  事务和行级锁的理解和一些应用 
 * maven介绍以及了解maven web项目的创建与配置:[Maven安装配置及创建你的第一个Maven项目](http://codingxiaxw.cn/2016/11/24/51-first-maven-project/)
 * Logback 日志插件 [logback配置](https://logback.qos.ch/manual/jmxConfig.html)
