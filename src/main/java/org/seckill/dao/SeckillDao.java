@@ -4,6 +4,7 @@ import org.apache.ibatis.annotations.Param;
 import org.seckill.entity.Seckill;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by geek on 2017/4/27.
@@ -32,4 +33,10 @@ public interface SeckillDao {
      * @return
      */
     List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
+
+    /**
+     * 使用存储过程完成秒杀
+     * @param paraMap
+     */
+    void killByProcedure(Map<String,Object> paraMap);
 }

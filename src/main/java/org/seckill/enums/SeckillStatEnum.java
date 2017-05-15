@@ -4,11 +4,11 @@ package org.seckill.enums;
  * Created by geek on 2017/4/27.
  */
 public enum  SeckillStatEnum {
-    SUCCESS(1,"秒杀成功"),
     END(0,"秒杀结束"),
+    SUCCESS(1,"秒杀成功"),
+    REPEAT_KILL(-1,"重复秒杀"),
     INNER_ERROR(-2,"系统异常"),
-    DATA_REWRITE(-3,"数据篡改"),
-    REPEAT_KILL(-4,"重复秒杀");
+    DATA_REWRITE(-3,"数据篡改");
 
     private int state;
 
